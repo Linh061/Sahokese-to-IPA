@@ -1,4 +1,4 @@
-import Main as cv
+import main as cv
 
 def main():
     """主程序"""
