@@ -1,4 +1,4 @@
-import Sahokese_to_IPA_Dict as Dict
+import Sahokese_to_IPA_dict as Dict
 import re
 
 class Sahokese_to_IPA:
@@ -239,7 +239,7 @@ def test_single(word):
     """测试单个词"""
     converter = Sahokese_to_IPA()
     ipa = converter.convert(word)
-    print(f"'{word}' -> '{ipa}'")
+    print(f"'{word}' -> '{ipa}'") 
     return ipa
 
 if __name__ == "__main__":
