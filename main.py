@@ -45,9 +45,9 @@ class Sahokese_to_IPA:
         self.base_tone_pattern = re.compile(r'([1-6])(?!\*)')  # 后面不跟*的数字
         
         print(f"转换器初始化完成:")
-        print(f"  辅音: {len(self.consonants)} 个")
-        print(f"  音节辅音: {len(self.syllable_consonants)} 个")
-        print(f"  元音: {len(self.vowels)} 个")
+        print(f"  声母: {len(self.consonants)} 个")
+        print(f"  成音节辅音: {len(self.syllable_consonants)} 个")
+        print(f"  韵母: {len(self.vowels)} 个")
         print(f"  原调: {len(self.tones)} 个")
         print(f"  变调: {len(self.modified_tones)} 个")
     
